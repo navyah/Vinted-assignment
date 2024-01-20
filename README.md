@@ -1,7 +1,6 @@
-Below are the answers for home assignment 
-
-1. Test cases:
+**1. Test cases:**
 Please create 5 test cases for the item upload area. These test cases should show how you approach testing rather than be exhaustive test cases. Mention what you think should be given special attention. Tell us why you chose those test cases. You can use the format of your own choosing. If you find any bugs in the item upload area - create bug reports for them in a form of your own choosing.
+
 Answer 
 
 Sanity tests: These tests focuses on the high level and critical path of the business in the upload process
@@ -44,9 +43,9 @@ Compatibility (both apk & ipa)
 The app should be able to run on all devices (based on requirement) 
 The app should be  able to work in all supported OS versions
 
+___________________________________________________________________________________________________________________________________________________________________________________
 
-
-2. Bugs
+**2. Bugs**
 Tell us how would you approach testing (how would you try to reproduce, what should be paid special attention, what could be the causes and etc.) for the issues mentioned below:
 
 a) User is not able to upload an item - gets an “unexpected error” when pressing “Pridėti” button in Upload form. Kibana logs show message: Rejected file upload: photo.webp (size: 0, head: )
