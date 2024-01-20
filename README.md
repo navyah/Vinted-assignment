@@ -1,4 +1,5 @@
 **1. Test cases:**
+
 Please create 5 test cases for the item upload area. These test cases should show how you approach testing rather than be exhaustive test cases. Mention what you think should be given special attention. Tell us why you chose those test cases. You can use the format of your own choosing. If you find any bugs in the item upload area - create bug reports for them in a form of your own choosing.
 
 Answer 
@@ -84,10 +85,11 @@ Verify that the app uninstall and install helps in fixing the issue
 
 
 
-3. Automated test
+**3. Automated test**
 At Vinted we have quite a lot of automated e2e tests for mobile and web. However, sometimes they break and you might need to retest manually to be sure if there is a bug.
 Please write a test case according to this auto test written for iOS and Android platforms.
 How would you improve the logic of this test? Give examples of which steps could be added or removed.
+
 @Test(description = "Test favoriting item from item screen and unfavoriting it from favorites screen")
 fun testItemFavoring() {
    deeplink
